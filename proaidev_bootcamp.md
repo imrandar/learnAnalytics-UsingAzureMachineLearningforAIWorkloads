@@ -28,10 +28,10 @@ Pre-requisites can be found [here][prereq3.0]. Briefly, pre-requisites include t
 - Understand and use the Team Data Science Process (TDSP) to clearly define business goals and success criteria
 - Use a code-repository system with the Azure Machine Learning Workbench using the TDSP structure
 - Create an example environment
-- Use the TDSP and AML for data acquisition and understanding
-- Use the TDSP and AML for creating an experiment with a model and evaluation of models
-- Use the TDSP and AML for deployment
-- Use the TDSP and AML for project close-out and customer acceptance
+- Use the TDSP and AMLS for data acquisition and understanding
+- Use the TDSP and AMLS for creating an experiment with a model and evaluation of models
+- Use the TDSP and AMLS for deployment
+- Use the TDSP and AMLS for project close-out and customer acceptance
 - Execute Data preparation workflows and train your models on remote Data Science Virtual Machines (with or without GPUs) and HDInsight Clusters running Spark
 - Manage and compare models with Azure Machine Learning
 - Explore hyper-parameters on Spark using Azure Machine Learning
@@ -44,21 +44,21 @@ Please note: This is a rough agenda, and the schedule is subject to change pendi
 
 - Day 1
   - 9-11: Introduction and Context
-  - 10-11: [Lab 1: Introduction to Team Data Science Process with Azure Machine Learning][lab3.1] 
-  - 11-12: [Lab 2: Comparing and Managing Models with Azure Machine Learning][lab3.2]
+  - 10-11: [Lab 3.1: Introduction to Team Data Science Process with Azure Machine Learning][lab3.1] 
+  - 11-12: [Lab 3.2: Comparing and Managing Models with Azure Machine Learning][lab3.2]
   - 12-1: Lunch
-  - 1-2:20 [Lab 3: Behind the scenes: Docker images and Conda environments][lab3.3]
-  - 2:30-3:50 [Lab 4: Executing a data engineering or model training workflow in a remote execution environment][lab3.4]
+  - 1-2:20 [Lab 3.3: Behind the scenes: Docker images and Conda environments][lab3.3]
+  - 2:30-3:50 [Lab 3.4: Executing a data engineering or model training workflow in a remote execution environment][lab3.4]
   - 4-5: Summary and White-board Discussion
 - Day 2 
   - 9-9:20: Review and Next Steps
-  - 9:20-10:20: [Lab 5: Executing a neural network workflow remotely using GPUs][lab3.5] 
+  - 9:20-10:20: [Lab 3.5: Executing a neural network workflow remotely using GPUs][lab3.5] 
   - 10:30-10:50: Introduction to Deployment and Context
-  - 11-12:00: [Lab 6: Managing Models using Azure Machine Learning][lab4.1]
+  - 11-12:00: [Lab 4.1: Managing Models using Azure Machine Learning][lab4.1]
   - 12:00-1: Lunch
-  - 1:00-1:50: [Lab 7: Deploying a scoring service to Azure Container Service (AKS)][lab4.2]
-  - 2:00-2:50: [Lab 8: Consuming the final service][lab4.3]
-  - 3:00-3:50: [Lab 9: Collect data from a scoring service][lab4.4]
+  - 1:00-1:50: [Lab 4.2: Deploying a scoring service to Azure Container Service (AKS)][lab4.2]
+  - 2:00-2:50: [Lab 4.3: Consuming the final service][lab4.3]
+  - 3:00-3:50: [Lab 4.4: Collect data from a scoring service][lab4.4]
   - 4:00-5:00: Q&A and Feedback for Pro AI Bootcamp
 
 
@@ -85,18 +85,3 @@ These materials have been tested on Windows with:
 [lab4.4]: https://aka.ms/learnai-proaidevbootcamp-04-4
 [lab4.5]: https://aka.ms/learnai-proaidevbootcamp-04-5
 [gitter]: https://gitter.im/LearnAI-Bootcamps
-
-
-# Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
