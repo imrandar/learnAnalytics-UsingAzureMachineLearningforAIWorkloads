@@ -44,21 +44,21 @@ Please note: This is a rough agenda, and the schedule is subject to change pendi
 
 - Day 1
   - 9-11: Introduction and Context
-  - 10-11: [Lab 1: Introduction to Team Data Science Process with Azure Machine Learning][lab3.1] 
-  - 11-12: [Lab 2: Comparing and Managing Models with Azure Machine Learning][lab3.2]
+  - 10-11: [Lab 1: Introduction to Team Data Science Process with Azure Machine Learning][lab01]
+  - 11-12: [Lab 2: Comparing and Managing Models with Azure Machine Learning][lab02]
   - 12-1: Lunch
-  - 1-2:20 [Lab 3: Behind the scenes: Docker images and Conda environments][lab3.3]
-  - 2:30-3:50 [Lab 4: Executing a data engineering or model training workflow in a remote execution environment][lab3.4]
+  - 1-2:20 [Lab 3: Behind the scenes: Docker images and Conda environments][lab03]
+  - 2:30-3:50 [Lab 4: Executing a data engineering or model training workflow in a remote execution environment][lab04]
   - 4-5: Summary and White-board Discussion
-- Day 2 
+- Day 2
   - 9-9:20: Review and Next Steps
-  - 9:20-10:20: [Lab 5: Executing a neural network workflow remotely using GPUs][lab3.5] 
+  - 9:20-10:20: [Lab 5: Executing a neural network workflow remotely using GPUs][lab05]
   - 10:30-10:50: Introduction to Deployment and Context
-  - 11-12:00: [Lab 6: Managing Models using Azure Machine Learning][lab4.1]
+  - 11-12:00: [Lab 6: Managing Models using Azure Machine Learning][lab06]
   - 12:00-1: Lunch
-  - 1:00-1:50: [Lab 7: Deploying a scoring service to Azure Container Service (AKS)][lab4.2]
-  - 2:00-2:50: [Lab 8: Consuming the final service][lab4.3]
-  - 3:00-3:50: [Lab 9: Collect data from a scoring service][lab4.4]
+  - 1:00-1:50: [Lab 7: Deploying a scoring service to Azure Container Service (AKS)][lab07]
+  - 2:00-2:50: [Lab 8: Consuming the final service][lab08]
+  - 3:00-3:50: [Lab 9: Collect data from a scoring service][lab09]
   - 4:00-5:00: Q&A and Feedback for Pro AI Bootcamp
 
 
@@ -73,19 +73,18 @@ These materials have been tested on Windows with:
 - Docker Community Edition v`17.12.0-ce-win47 (15139)`
 - Azure Machine Learning Workbench v`0.1.1712.18263`
 
-[prereq3.0]: https://aka.ms/learnai-proaidevbootcamp-03-0
-[lab3.1]: https://aka.ms/learnai-proaidevbootcamp-03-1
-[lab3.2]: https://aka.ms/learnai-proaidevbootcamp-03-2
-[lab3.3]: https://aka.ms/learnai-proaidevbootcamp-03-3
-[lab3.4]: https://aka.ms/learnai-proaidevbootcamp-03-4
-[lab3.5]: lab03.5-execute_remote_gpu/0_README.md
-[lab4.1]: https://aka.ms/learnai-proaidevbootcamp-04-1
-[lab4.2]: https://aka.ms/learnai-proaidevbootcamp-04-2
-[lab4.3]: https://aka.ms/learnai-proaidevbootcamp-04-3
-[lab4.4]: https://aka.ms/learnai-proaidevbootcamp-04-4
-[lab4.5]: https://aka.ms/learnai-proaidevbootcamp-04-5
+[prereq3.0]: lab00-bootcamp-pre-requisites/0_README.md
+[lab01]: lab01-tdsp_and_aml/0_README.md
+[lab02]: lab02-compare_and_choose_models/0_README.md
+[lab03]: lab03_manage_conda_envs_in_aml/0_README.md
+[lab04]: lab04-execute_in_remote_environment/0_README.md
+[lab05]: lab05-execute_remote_gpu/0_README.md
+[lab06]: lab06-managing_models_with_aml/0_README.md
+[lab07]: lab07-deploying_a_scoring_service_to_aks/0_README.md
+[lab08]: lab08-consuming_a_scoring_service/0_README.md
+[lab09]: lab09-collect_and_analyze_data_from_a_scoring_service/0_README.md
+[lab10]: lab10-parallel_hyperparameter_sweeps_on_spark/0_README.md
 [gitter]: https://gitter.im/LearnAI-Bootcamps
-
 
 # Contributing
 
