@@ -1,5 +1,5 @@
-title: Learn AI Bootcamp Materials
-description: Microsoft labs for learning to develop AI-oriented applications.
+title: Using Azure Machine Learning
+description: Microsoft labs for learning to build models and create services with Azure Machine Learning
 show_downloads: true
 theme: jekyll-theme-cayman
-repository: Azure/LearnAI-Bootcamp
+repository: Azure/learnAnalytics-UsingAzureMachineLearningforAIWorkloads
